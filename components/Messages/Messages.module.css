@@ -1,0 +1,24 @@
+.botMessage {
+    align-self: flex-start;
+    width: auto;
+    max-width: 75vw;
+    padding: 13px;
+    margin: 10px 0 10px 10px;
+
+    background-color: var(--secondary-darkcolor);
+    border-radius: 10px;
+
+    font-weight: 300;
+}
+
+.userMessage {
+    align-self: flex-end;
+    width: auto;
+    padding: 13px;
+    margin: 10px 10px 10px 0;
+
+    background-color: var(--third-color);
+    border-radius: 10px;
+
+    font-weight: 300;
+}

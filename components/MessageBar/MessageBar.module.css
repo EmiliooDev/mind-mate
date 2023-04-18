@@ -1,0 +1,52 @@
+.barContainer {
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    bottom: 0;
+}
+
+.formParts {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.formParts > :first-child {
+    width: 75%;
+    height: 40px;
+    padding: 0 0 0 15px ;
+
+    background-color: var(--secondary-darkcolor);
+    color: #fff;
+    font-size: 1rem;
+
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.formParts > :first-child:focus {
+    outline: none;
+}
+
+.formParts > :first-child::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.formParts > :last-child {
+    width: 20%;
+    height: 40px;
+    padding: 0;
+
+    background-color: var(--third-color);
+    color: #fff;
+
+    border: none;
+    border-radius: 0 10px 10px 0;
+
+    font-size: 1rem;
+    font-weight: 600;
+}
