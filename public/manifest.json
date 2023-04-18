@@ -1,0 +1,17 @@
+{
+    "name": "Mind Mate",
+    "short_name": "Mind-Mate",
+    "description": "A intelligent chat assistand powered by OpenAI (API used)",
+    "icons": [
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "images/png",
+            "porpuse": "maskable"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#6C6C6C",
+    "theme_color": "#4B4B4B"
+}

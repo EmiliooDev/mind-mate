@@ -20,6 +20,9 @@ export default function Home() {
         <title>Mind Mate</title>
         <meta name="description" content="I'm your mate, mate." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content='#4B4B4B'/>
+        <link rel="manifest" href="manifest.json" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
