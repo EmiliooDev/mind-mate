@@ -10,6 +10,8 @@
     align-self: flex-end;
     flex-wrap: nowrap;
     bottom: 0;
+
+    background-color: var(--primary-darkcolor);
 }
 
 .formParts {
