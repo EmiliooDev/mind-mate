@@ -5,6 +5,8 @@
     display: flex;
     flex-direction: column;
     overflow: auto;
+
+    -webkit-overflow-scrolling: touch;
 }
 
 .messagesContainer::-webkit-scrollbar {
