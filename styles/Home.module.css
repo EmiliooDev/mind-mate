@@ -1,8 +1,23 @@
 .main {
   width: 100vw;
   height: 100vh;
+  
   display: flex;
   flex-direction: column;
+  align-self: center;
+
+  background-color: #555555;
+}
+
+.mobileContainer {
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  max-width: 600px;
+  background-color: var(--primary-darkcolor);
 }
 
 .header {

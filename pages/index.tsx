@@ -26,13 +26,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.header}>
-          <h2>Mind Mate</h2>
-        </div>   
+        <div className={styles.mobileContainer}>
+          <div className={styles.header}>
+            <h2>Mind Mate</h2>
+          </div>   
 
-        <Messages chatLog={chatLog} /> 
+          <Messages chatLog={chatLog} /> 
 
-        <MessageBar handleSubmit={handleSubmit} setInputValue={setInputValue} inputValue={inputValue} />
+          <MessageBar handleSubmit={handleSubmit} setInputValue={setInputValue} inputValue={inputValue} />
+        </div>
       </main>
     </>
   )
