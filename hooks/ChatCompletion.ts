@@ -24,7 +24,7 @@ const ChatCompletion = () => {
       .then(() => {
         // Clear the input value after the API response is received
         setInputValue('');
-      });
+    });
   };
 
   const sendMessage = (message: any) => {

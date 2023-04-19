@@ -2,6 +2,7 @@
     width: 100%;
     max-width: 600px;
     height: 9%;
+    max-height: 80px;
     position: fixed;
     display: flex;
     justify-content: center;
