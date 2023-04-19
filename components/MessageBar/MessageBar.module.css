@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 600px;
     height: 60px;
-    position: fixed;
+    position: sticky;
     display: flex;
     justify-content: center;
     align-items: center;
