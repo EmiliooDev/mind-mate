@@ -12,11 +12,14 @@
 }
 .messagesContainer::-webkit-scrollbar-track {
     background-color: transparent;
+} 
+.messagesContainer::-webkit-scrollbar-thumb {
+    background-color: transparent;
 }
-.messagesContainer:not(:hover)::-webkit-scrollbar-thumb {
+.messagesContainer:not(:hover)::-webkit-scrollbar-thumb:vertical {
     background-color: transparent; 
 }
-.messagesContainer::-webkit-scrollbar-thumb {
+.messagesContainer::-webkit-scrollbar-thumb:vertical {
     background-color: var(--secondary-darkcolor); 
     border-radius: 5px; 
 }
