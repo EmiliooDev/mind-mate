@@ -52,3 +52,15 @@
 
     font-weight: 300;
 }
+
+@media not all and (min-resolution:.001dpcm) {
+    .safari-only .messagesContainer {
+      width: 100%;
+      height: calc(100vh - 20vh);
+      display: flex;
+      flex-direction: column;
+      overflow-y: scroll;
+      -webkit-overflow-scrolling: touch;
+      scroll-behavior: smooth;
+    }
+  }
