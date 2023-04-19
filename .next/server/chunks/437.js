@@ -2083,7 +2083,7 @@ var external_util_ = __webpack_require__(837);
 // EXTERNAL MODULE: external "follow-redirects"
 var external_follow_redirects_ = __webpack_require__(953);
 // EXTERNAL MODULE: external "zlib"
-var external_zlib_ = __webpack_require__(206);
+var external_zlib_ = __webpack_require__(796);
 ;// CONCATENATED MODULE: ./node_modules/axios/lib/env/data.js
 const VERSION = "1.3.5";
 ;// CONCATENATED MODULE: ./node_modules/axios/lib/helpers/parseProtocol.js
