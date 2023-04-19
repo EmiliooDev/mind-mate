@@ -54,3 +54,20 @@
     font-size: 1rem;
     font-weight: 600;
 }
+
+@media not all and (min-resolution:.001dpcm) {
+    .safari-only  .barContainer {
+        width: 100%;
+        max-width: 600px;
+        height: 60px;
+        position: sticky;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: flex-end;
+        flex-wrap: nowrap;
+        bottom: 40px;
+    
+        background-color: var(--primary-darkcolor);
+    }
+}
