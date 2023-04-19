@@ -1,6 +1,7 @@
 .messagesContainer {
     width: 100%;
-    height: calc(100vh - 130px);
+    height: 80vh;
+    position: static;
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
