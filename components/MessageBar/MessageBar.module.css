@@ -10,7 +10,7 @@
     flex-wrap: nowrap;
     bottom: 0;
 
-    background-color: var(--primary-darkcolor);
+    background-color: transparent;
 }
 
 .formParts {
