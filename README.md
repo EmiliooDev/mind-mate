@@ -2,13 +2,13 @@
 
 This is a botchat application that uses the OpenAI API gpt-3.5-turbo.
 
-<img src="public/desktop-preview.png" alt="alt text" width="300" height="auto">
-
 ### Desktop preview
 
-<img src="public/mobile-preview.jpeg" alt="alt text" width="300" height="auto">
+<img src="public/desktop-preview.png" alt="alt text" width="300" height="auto">
 
 ### Mobile preview
+
+<img src="public/mobile-preview.jpeg" alt="alt text" width="300" height="auto">
 
 ## Getting Started
 
